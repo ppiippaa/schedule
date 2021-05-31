@@ -10,13 +10,36 @@ body {
     color: white;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 h1 {
-    color: white;
     background-color: rgba(0,0,0,0.6);
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
+    margin-left: 50px;
+}
+
+.reset-button {
+    background-color: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.reset-button:hover {
+    color: #ccb9e8;
+    cursor: pointer;
+}
+
+.reset-button:active {
+    transform: translateY(1px);
 }
 
 .flex-container-col {
